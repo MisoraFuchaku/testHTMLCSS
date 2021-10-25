@@ -1,0 +1,58 @@
+
+*{
+    line-height: 0;
+}
+
+div{
+    display: inline-block;
+}
+
+body > .first{
+    width: 30%;
+    height: 300px;
+}
+
+.first{
+    background-color: #573F2E;
+}
+
+body > .second{
+    width: 70%;
+    height: 300px;
+    float: right;
+}
+
+.second{
+    background-color: #3E2D21;
+}
+
+body > .third{
+    width: 30%;
+    height: 700px;
+}
+
+.third{
+    background-color: #FAEDED;
+}
+
+body > .fourth{
+    width: 70%;
+    height: 700px;
+    float: right;
+}
+
+.fourth{
+    background-color: #6A4021;
+}
+
+.fourth > .fifth{
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.fifth{
+    background-color: #3E2D21;
+}
